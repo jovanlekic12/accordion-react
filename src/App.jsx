@@ -5,7 +5,6 @@ import "./App.css";
 
 function App() {
   const [questions, setQuestions] = useState(data);
-  console.log(questions);
   return (
     <ul className="questions__list">
       {questions.map((question) => {
